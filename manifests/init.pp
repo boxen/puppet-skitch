@@ -1,7 +1,11 @@
-# Public: Install Skitch 1.0.
+# Public: Install Skitch 2.0.
+#
+# Usage:
+#
+#   include skitch
 class skitch {
   package { 'Skitch':
     provider => 'compressed_app',
-    source   => 'http://get.skitch.com/Skitch-1.0.12.zip'
+    source   => 'http://get.skitch.com/Skitch-2.5.2.zip'
   }
 }
