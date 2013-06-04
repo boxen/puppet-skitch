@@ -1,10 +1,10 @@
 require 'spec_helper'
 
-describe 'skitch' do
+describe 'skitch::v1' do
   it do
     should contain_package('Skitch').with(
       :provider => 'compressed_app',
-      :source   => 'http://get.skitch.com/Skitch-2.5.2.zip'
+      :source   => 'http://get.skitch.com/Skitch-1.0.12.zip'
     )
   end
 end
